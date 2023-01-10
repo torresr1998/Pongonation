@@ -45,8 +45,7 @@ export class Ball {
     this.initial = { x: 5, y: 0 }; //speed reset on point score
     this.maximum = { x: 20, y: 10 }; //maximum speed
     this.inertialTransfer = 0.25; //multiplier for velocity.y transfer from paddle
-    this.htmlElement = {iframe src="https://giphy.com/embed/Q9ybPMuILNiKggfPtA" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/hughmillerinsurance-twilight-heymavens-hey-mavens-Q9ybPMuILNiKggfPtA">via GIPHY</a></p>
-; //element on HTML page
+    this.htmlElement = null; //element on HTML page
   }
 }
 
