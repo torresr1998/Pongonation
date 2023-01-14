@@ -71,13 +71,10 @@ body {
   position: absolute;
 }
 
-
 .ball {
-  background-image: url(https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/87/latest/20210226185630/Pok%C3%A9_Ball_%28Hisui%29_%28Ilustraci%C3%B3n%29.png/1200px-Pok%C3%A9_Ball_%28Hisui%29_%28Ilustraci%C3%B3n%29.png);
-  background-size: contain;
-  width: 30px;
-  height: 30px;
-  background-color: light blue;
+  width: 20px;
+  height: 20px;
+  background-color: red;
   border-radius: 10px;
   position: absolute;
   left: 50px;
@@ -88,15 +85,14 @@ body {
   position: absolute;
   font-family: Arial, Helvetica, sans-serif;
   top: 0;
-  background-color: white
 }
 
 #left-score {
   left: 10%;
-  background-color: white
+  background-color: white;
 }
 
 #right-score {
   right: 10%;
-  background-color: white
+  background-color: white;
 }
