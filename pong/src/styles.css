@@ -71,11 +71,13 @@ body {
   position: absolute;
 }
 
+
 .ball {
-  background-image: url("http://clipart-library.com/img/1565435.png");
-  width: 20px;
-  height: 20px;
-  background-color: red;
+  background-image: url(https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/87/latest/20210226185630/Pok%C3%A9_Ball_%28Hisui%29_%28Ilustraci%C3%B3n%29.png/1200px-Pok%C3%A9_Ball_%28Hisui%29_%28Ilustraci%C3%B3n%29.png);
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  background-color: light blue;
   border-radius: 10px;
   position: absolute;
   left: 50px;
